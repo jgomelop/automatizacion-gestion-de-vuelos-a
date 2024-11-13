@@ -1,0 +1,7 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'Gestion_de_vuelos_A_Automatizacion'
