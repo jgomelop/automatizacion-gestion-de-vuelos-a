@@ -1,0 +1,208 @@
+{
+  "name": "Existing flight query by criteria",
+  "id": "flight-consultation;existing-flight-query-by-criteria",
+  "scenarioId": "get_flight:Existing flight query by criteria",
+  "methodName": "Existing flight query by criteria",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "1: Existing flight query by criteria ({detail\u003dflightId})",
+      "duration": 26067,
+      "startTime": "2024-11-13T18:53:09.690721400-05:00[America/Bogota]",
+      "result": "PENDING",
+      "precondition": false,
+      "level": 0,
+      "lineNumber": 17,
+      "children": [
+        {
+          "number": 2,
+          "description": "Given I am an administrator and can use the system",
+          "duration": 23,
+          "startTime": "2024-11-13T18:53:09.909916700-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 3,
+          "description": "When I visit the flight page",
+          "duration": 25787,
+          "startTime": "2024-11-13T18:53:09.936581300-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1,
+          "children": [
+            {
+              "number": 4,
+              "description": "Administrator opens the browser at https://code-factory-presencial-front-nine.vercel.app/gestion-de-vuelos-A/vuelos",
+              "duration": 25433,
+              "startTime": "2024-11-13T18:53:10.272804500-05:00[America/Bogota]",
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "description": "Then I can see the list of flights with it flightId\r\n| flightId | departureCity | price |",
+          "duration": 16,
+          "startTime": "2024-11-13T18:53:35.728825500-05:00[America/Bogota]",
+          "result": "PENDING",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "description": "2: Existing flight query by criteria ({detail\u003ddepartureCity})",
+      "duration": 359,
+      "startTime": "2024-11-13T18:53:35.845919500-05:00[America/Bogota]",
+      "result": "PENDING",
+      "precondition": false,
+      "level": 0,
+      "lineNumber": 18,
+      "children": [
+        {
+          "number": 7,
+          "description": "Given I am an administrator and can use the system",
+          "duration": 25,
+          "startTime": "2024-11-13T18:53:35.904591100-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 8,
+          "description": "When I visit the flight page",
+          "duration": 265,
+          "startTime": "2024-11-13T18:53:35.932054700-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1,
+          "children": [
+            {
+              "number": 9,
+              "description": "Administrator opens the browser at https://code-factory-presencial-front-nine.vercel.app/gestion-de-vuelos-A/vuelos",
+              "duration": 254,
+              "startTime": "2024-11-13T18:53:35.939214-05:00[America/Bogota]",
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "description": "Then I can see the list of flights with it departureCity\r\n| flightId | departureCity | price |",
+          "duration": 3,
+          "startTime": "2024-11-13T18:53:36.200016500-05:00[America/Bogota]",
+          "result": "PENDING",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "description": "3: Existing flight query by criteria ({detail\u003dprice})",
+      "duration": 315,
+      "startTime": "2024-11-13T18:53:36.235407200-05:00[America/Bogota]",
+      "result": "PENDING",
+      "precondition": false,
+      "level": 0,
+      "lineNumber": 19,
+      "children": [
+        {
+          "number": 12,
+          "description": "Given I am an administrator and can use the system",
+          "duration": 19,
+          "startTime": "2024-11-13T18:53:36.270988700-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 13,
+          "description": "When I visit the flight page",
+          "duration": 249,
+          "startTime": "2024-11-13T18:53:36.293002400-05:00[America/Bogota]",
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1,
+          "children": [
+            {
+              "number": 14,
+              "description": "Administrator opens the browser at https://code-factory-presencial-front-nine.vercel.app/gestion-de-vuelos-A/vuelos",
+              "duration": 238,
+              "startTime": "2024-11-13T18:53:36.298673400-05:00[America/Bogota]",
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "description": "Then I can see the list of flights with it price\r\n| flightId | departureCity | price |",
+          "duration": 3,
+          "startTime": "2024-11-13T18:53:36.545405-05:00[America/Bogota]",
+          "result": "PENDING",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "get_flight",
+    "storyName": "Flight consultation",
+    "displayName": "Flight consultation",
+    "path": "get_flight",
+    "pathElements": [{ "name": "get_flight", "description": "" }],
+    "narrative": "  As an aircraft administrator, I want to be able to consult the direct flights registered in the system to be able to review existing flights and availability.",
+    "type": "feature"
+  },
+  "title": "Existing flight query by criteria",
+  "description": "",
+  "tags": [
+    { "name": "Chrome", "type": "context", "displayName": "Chrome" },
+    { "name": "Windows", "type": "context", "displayName": "Windows" },
+    {
+      "name": "Chrome, Windows",
+      "type": "context",
+      "displayName": "Chrome, Windows"
+    }
+  ],
+  "startTime": "2024-11-13T18:53:09.673225100-05:00[America/Bogota]",
+  "duration": 259,
+  "projectKey": "",
+  "annotatedResult": "PENDING",
+  "sessionId": "33319afa97da280b49be64fcee8c6772",
+  "driver": "chrome:administrator",
+  "isManualTestingUpToDate": false,
+  "context": "chrome,windows",
+  "dataTable": {
+    "headers": ["detail"],
+    "rows": [
+      { "values": ["flightId"], "lineNumber": 17, "result": "PENDING" },
+      { "values": ["departureCity"], "lineNumber": 18, "result": "PENDING" },
+      { "values": ["price"], "lineNumber": 19, "result": "PENDING" }
+    ],
+    "predefinedRows": true,
+    "scenarioOutline": "Given I am an administrator and can use the system\n\rWhen I visit the flight page\n\rThen I can see the list of flights with it \u003cdetail\u003e\n\r",
+    "dataSetDescriptors": [
+      { "startRow": 0, "rowCount": 0, "name": "", "description": "" }
+    ]
+  },
+  "manual": false,
+  "testSource": "Cucumber",
+  "actors": [
+    { "name": "administrator", "can": ["browse the web"] },
+    { "name": "user", "can": ["browse the web"] }
+  ],
+  "order": 0,
+  "result": "PENDING",
+  "scenarioOutline": "Given I am an administrator and can use the system\r\nWhen I visit the flight page\r\nThen I can see the list of flights with it \u003cdetail\u003e\r\n|flightId | departureCity | price|"
+}
