@@ -22,6 +22,7 @@ public class AircraftPage extends PageObject {
             .located(By.xpath("//*[@id=\"__next\"]/div/div/button"));
 
     public static final Target CONFIRMATION_POPUP_MSG = Target.the("CREATE AIRCRAFT MESSAGE")
-            .located(By.xpath("/html/body/div[3]/div[1]/p"));
+            .located(By.cssSelector("#radix-\\:r8\\:"));
+
 
 }

@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="I as admin want to create aircrafts to be used by flights" skipped="1" tests="1" time="0.21" timestamp="2024-11-16 07:29:53"><testcase name="Missing form validation"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="I as admin want to create aircrafts to be used by flights" skipped="0" tests="1" time="0.29" timestamp="2024-11-16 09:18:16"><testcase name="Missing form validation"><error type="java.lang.ExceptionInInitializerError"/><system-err>null&#13;
+co.com.udea.certificacion.gestiondevuelosa.stepdefinitions.aircraft.AircraftStepDefinition.openAircraftPage(AircraftStepDefinition.java:43)&#13;
+✽.Open the aircraft page(file:///C:/Users/JuanPabloGomez/Desktop/automatizacion-gestion-de-vuelos-a/src/test/resources/features/create_aircraft.feature:3)&#13;
+</system-err></testcase></testsuite>

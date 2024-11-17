@@ -38,7 +38,7 @@ public class AircraftStepDefinition {
         admin = OnStage.theActorCalled("admin");
     }
 
-    @Given("Open the aircraft page")
+    @And("Open the aircraft page")
     public void openAircraftPage(){
         admin.attemptsTo(OpenThe.browser(new AircraftPage()));
     }
@@ -47,7 +47,6 @@ public class AircraftStepDefinition {
     public void iSendTheFormWithMissingInputs() {
         admin.attemptsTo(FillCreateAircraftForm.inputs());
     }
-
     @Then("I get a message error")
     public void iGetAMessageError() {
         GivenWhenThen.then(admin).should(GivenWhenThen
